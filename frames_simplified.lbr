@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="frame" color="13" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+</packages>
+<symbols>
+<symbol name="A3_LANDSCAPE_FIRST">
+<wire x1="-19" y1="-4" x2="399" y2="-4" width="0.254" layer="100"/>
+<wire x1="399" y1="-4" x2="399" y2="291" width="0.254" layer="100"/>
+<wire x1="399" y1="291" x2="-19" y2="291" width="0.254" layer="100"/>
+<wire x1="-19" y1="291" x2="-19" y2="-4" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="210" y2="0" width="0.254" layer="100"/>
+<wire x1="210" y1="0" x2="395" y2="0" width="0.254" layer="100"/>
+<wire x1="395" y1="0" x2="395" y2="55" width="0.254" layer="100"/>
+<wire x1="395" y1="55" x2="395" y2="287" width="0.254" layer="100"/>
+<wire x1="395" y1="287" x2="70" y2="287" width="0.254" layer="100"/>
+<wire x1="70" y1="287" x2="0" y2="287" width="0.254" layer="100"/>
+<wire x1="0" y1="287" x2="0" y2="273" width="0.254" layer="100"/>
+<wire x1="0" y1="273" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="395" y1="55" x2="210" y2="55" width="0.254" layer="100"/>
+<wire x1="210" y1="55" x2="210" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="273" x2="70" y2="273" width="0.254" layer="100"/>
+<wire x1="70" y1="273" x2="70" y2="287" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A3_LANDSCAPE_NEXT">
+<wire x1="-19" y1="-4" x2="399" y2="-4" width="0.254" layer="100"/>
+<wire x1="399" y1="-4" x2="399" y2="291" width="0.254" layer="100"/>
+<wire x1="399" y1="291" x2="-19" y2="291" width="0.254" layer="100"/>
+<wire x1="-19" y1="291" x2="-19" y2="-4" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="210" y2="0" width="0.254" layer="100"/>
+<wire x1="210" y1="0" x2="395" y2="0" width="0.254" layer="100"/>
+<wire x1="395" y1="0" x2="395" y2="15" width="0.254" layer="100"/>
+<wire x1="395" y1="15" x2="395" y2="287" width="0.254" layer="100"/>
+<wire x1="395" y1="287" x2="0" y2="287" width="0.254" layer="100"/>
+<wire x1="0" y1="287" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="395" y1="15" x2="210" y2="15" width="0.254" layer="100"/>
+<wire x1="210" y1="15" x2="210" y2="0" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A3_PORTRAIT_FIRST">
+<wire x1="-19" y1="-4" x2="276" y2="-4" width="0.254" layer="100"/>
+<wire x1="276" y1="-4" x2="276" y2="414" width="0.254" layer="100"/>
+<wire x1="276" y1="414" x2="-19" y2="414" width="0.254" layer="100"/>
+<wire x1="-19" y1="414" x2="-19" y2="-4" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="272" y2="0" width="0.254" layer="100"/>
+<wire x1="272" y1="0" x2="272" y2="410" width="0.254" layer="100"/>
+<wire x1="272" y1="410" x2="0" y2="410" width="0.254" layer="100"/>
+<wire x1="0" y1="410" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="272" y1="55" x2="87" y2="55" width="0.254" layer="100"/>
+<wire x1="87" y1="55" x2="87" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="396" x2="70" y2="396" width="0.254" layer="100"/>
+<wire x1="70" y1="396" x2="70" y2="410" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A3_PORTRAIT_NEXT">
+<wire x1="-19" y1="-4" x2="276" y2="-4" width="0.254" layer="100"/>
+<wire x1="276" y1="-4" x2="276" y2="414" width="0.254" layer="100"/>
+<wire x1="276" y1="414" x2="-19" y2="414" width="0.254" layer="100"/>
+<wire x1="-19" y1="414" x2="-19" y2="-4" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="272" y2="0" width="0.254" layer="100"/>
+<wire x1="272" y1="0" x2="272" y2="410" width="0.254" layer="100"/>
+<wire x1="272" y1="410" x2="0" y2="410" width="0.254" layer="100"/>
+<wire x1="0" y1="410" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="272" y1="15" x2="87" y2="15" width="0.254" layer="100"/>
+<wire x1="87" y1="15" x2="87" y2="0" width="0.254" layer="100"/>
+</symbol>
+<symbol name="DRAFT">
+<wire x1="-312" y1="-241" x2="-15" y2="-241" width="0.254" layer="100"/>
+<wire x1="-15" y1="-241" x2="-15" y2="179" width="0.254" layer="100"/>
+<wire x1="-15" y1="179" x2="-312" y2="179" width="0.254" layer="100"/>
+<wire x1="-312" y1="179" x2="-312" y2="-241" width="0.254" layer="100"/>
+<wire x1="-292" y1="-236" x2="-20" y2="-236" width="0.254" layer="100"/>
+<wire x1="-20" y1="-236" x2="-20" y2="174" width="0.254" layer="100"/>
+<wire x1="-20" y1="174" x2="-292" y2="174" width="0.254" layer="100"/>
+<wire x1="-292" y1="174" x2="-292" y2="-236" width="0.254" layer="100"/>
+<wire x1="-20" y1="-221" x2="-205" y2="-221" width="0.254" layer="100"/>
+<wire x1="-205" y1="-221" x2="-205" y2="-236" width="0.254" layer="100"/>
+<wire x1="31" y1="-240" x2="328" y2="-240" width="0.254" layer="100"/>
+<wire x1="328" y1="-240" x2="328" y2="180" width="0.254" layer="100"/>
+<wire x1="328" y1="180" x2="31" y2="180" width="0.254" layer="100"/>
+<wire x1="31" y1="180" x2="31" y2="-240" width="0.254" layer="100"/>
+<wire x1="51" y1="-235" x2="323" y2="-235" width="0.254" layer="100"/>
+<wire x1="323" y1="-235" x2="323" y2="175" width="0.254" layer="100"/>
+<wire x1="323" y1="175" x2="51" y2="175" width="0.254" layer="100"/>
+<wire x1="51" y1="175" x2="51" y2="-235" width="0.254" layer="100"/>
+<wire x1="323" y1="-180" x2="138" y2="-180" width="0.254" layer="100"/>
+<wire x1="138" y1="-180" x2="138" y2="-235" width="0.254" layer="100"/>
+<wire x1="51" y1="161" x2="121" y2="161" width="0.254" layer="100"/>
+<wire x1="121" y1="161" x2="121" y2="175" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A2_LANDSCAPE_FIRST">
+<wire x1="0" y1="0" x2="568" y2="0" width="0.254" layer="100"/>
+<wire x1="568" y1="0" x2="568" y2="410" width="0.254" layer="100"/>
+<wire x1="568" y1="410" x2="0" y2="410" width="0.254" layer="100"/>
+<wire x1="0" y1="410" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="396" x2="70" y2="396" width="0.254" layer="100"/>
+<wire x1="70" y1="396" x2="70" y2="410" width="0.254" layer="100"/>
+<wire x1="568" y1="55" x2="383" y2="55" width="0.254" layer="100"/>
+<wire x1="383" y1="55" x2="383" y2="0" width="0.254" layer="100"/>
+<wire x1="-20" y1="-4" x2="572" y2="-4" width="0.254" layer="100"/>
+<wire x1="572" y1="-4" x2="572" y2="414" width="0.254" layer="100"/>
+<wire x1="572" y1="414" x2="-20" y2="414" width="0.254" layer="100"/>
+<wire x1="-20" y1="414" x2="-20" y2="-4" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A2_LANDSCAPE_NEXT">
+<wire x1="568" y1="15" x2="383" y2="15" width="0.254" layer="100"/>
+<wire x1="383" y1="15" x2="383" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="568" y2="0" width="0.254" layer="100"/>
+<wire x1="568" y1="0" x2="568" y2="410" width="0.254" layer="100"/>
+<wire x1="568" y1="410" x2="0" y2="410" width="0.254" layer="100"/>
+<wire x1="0" y1="410" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="-20" y1="-4" x2="572" y2="-4" width="0.254" layer="100"/>
+<wire x1="572" y1="-4" x2="572" y2="414" width="0.254" layer="100"/>
+<wire x1="572" y1="414" x2="-20" y2="414" width="0.254" layer="100"/>
+<wire x1="-20" y1="414" x2="-20" y2="-4" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A2_PORTRAIT_FIRST">
+<wire x1="395" y1="55" x2="210" y2="55" width="0.254" layer="100"/>
+<wire x1="210" y1="55" x2="210" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="570" x2="70" y2="570" width="0.254" layer="100"/>
+<wire x1="70" y1="570" x2="70" y2="584" width="0.254" layer="100"/>
+<wire x1="395" y1="0" x2="395" y2="584" width="0.254" layer="100"/>
+<wire x1="395" y1="584" x2="0" y2="584" width="0.254" layer="100"/>
+<wire x1="0" y1="584" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="395" y2="0" width="0.254" layer="100"/>
+<wire x1="399" y1="-4" x2="399" y2="588" width="0.254" layer="100"/>
+<wire x1="399" y1="588" x2="-19" y2="588" width="0.254" layer="100"/>
+<wire x1="-19" y1="588" x2="-19" y2="-4" width="0.254" layer="100"/>
+<wire x1="-19" y1="-4" x2="399" y2="-4" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A2_PORTRAIT_NEXT">
+<wire x1="395" y1="15" x2="210" y2="15" width="0.254" layer="100"/>
+<wire x1="210" y1="15" x2="210" y2="0" width="0.254" layer="100"/>
+<wire x1="395" y1="0" x2="395" y2="584" width="0.254" layer="100"/>
+<wire x1="395" y1="584" x2="0" y2="584" width="0.254" layer="100"/>
+<wire x1="0" y1="584" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="395" y2="0" width="0.254" layer="100"/>
+<wire x1="399" y1="-4" x2="399" y2="588" width="0.254" layer="100"/>
+<wire x1="399" y1="588" x2="-19" y2="588" width="0.254" layer="100"/>
+<wire x1="-19" y1="588" x2="-19" y2="-4" width="0.254" layer="100"/>
+<wire x1="-19" y1="-4" x2="399" y2="-4" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A1_LANDSCAPE_FIRST">
+<wire x1="815" y1="55" x2="630" y2="55" width="0.254" layer="100"/>
+<wire x1="630" y1="55" x2="630" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="570" x2="70" y2="570" width="0.254" layer="100"/>
+<wire x1="70" y1="570" x2="70" y2="584" width="0.254" layer="100"/>
+<wire x1="815" y1="0" x2="815" y2="584" width="0.254" layer="100"/>
+<wire x1="815" y1="584" x2="0" y2="584" width="0.254" layer="100"/>
+<wire x1="0" y1="584" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="815" y2="0" width="0.254" layer="100"/>
+<wire x1="819" y1="-4" x2="819" y2="588" width="0.254" layer="100"/>
+<wire x1="819" y1="588" x2="-19" y2="588" width="0.254" layer="100"/>
+<wire x1="-19" y1="588" x2="-19" y2="-4" width="0.254" layer="100"/>
+<wire x1="-19" y1="-4" x2="819" y2="-4" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A1_LANDSCAPE_NEXT">
+<wire x1="815" y1="15" x2="630" y2="15" width="0.254" layer="100"/>
+<wire x1="630" y1="15" x2="630" y2="0" width="0.254" layer="100"/>
+<wire x1="815" y1="0" x2="815" y2="584" width="0.254" layer="100"/>
+<wire x1="815" y1="584" x2="0" y2="584" width="0.254" layer="100"/>
+<wire x1="0" y1="584" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="815" y2="0" width="0.254" layer="100"/>
+<wire x1="819" y1="-4" x2="819" y2="588" width="0.254" layer="100"/>
+<wire x1="819" y1="588" x2="-19" y2="588" width="0.254" layer="100"/>
+<wire x1="-19" y1="588" x2="-19" y2="-4" width="0.254" layer="100"/>
+<wire x1="-19" y1="-4" x2="819" y2="-4" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A1_PORTRAIT_FIRST">
+<wire x1="569" y1="830" x2="0" y2="830" width="0.254" layer="100"/>
+<wire x1="0" y1="830" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="569" y2="0" width="0.254" layer="100"/>
+<wire x1="569" y1="0" x2="569" y2="830" width="0.254" layer="100"/>
+<wire x1="573" y1="834" x2="-19" y2="834" width="0.254" layer="100"/>
+<wire x1="-19" y1="834" x2="-19" y2="-4" width="0.254" layer="100"/>
+<wire x1="-19" y1="-4" x2="573" y2="-4" width="0.254" layer="100"/>
+<wire x1="573" y1="-4" x2="573" y2="834" width="0.254" layer="100"/>
+<wire x1="569" y1="55" x2="384" y2="55" width="0.254" layer="100"/>
+<wire x1="384" y1="55" x2="384" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="816" x2="70" y2="816" width="0.254" layer="100"/>
+<wire x1="70" y1="816" x2="70" y2="830" width="0.254" layer="100"/>
+</symbol>
+<symbol name="A1_PORTRAIT_NEXT">
+<wire x1="569" y1="830" x2="0" y2="830" width="0.254" layer="100"/>
+<wire x1="0" y1="830" x2="0" y2="0" width="0.254" layer="100"/>
+<wire x1="0" y1="0" x2="569" y2="0" width="0.254" layer="100"/>
+<wire x1="569" y1="0" x2="569" y2="830" width="0.254" layer="100"/>
+<wire x1="573" y1="834" x2="-19" y2="834" width="0.254" layer="100"/>
+<wire x1="-19" y1="834" x2="-19" y2="-4" width="0.254" layer="100"/>
+<wire x1="-19" y1="-4" x2="573" y2="-4" width="0.254" layer="100"/>
+<wire x1="573" y1="-4" x2="573" y2="834" width="0.254" layer="100"/>
+<wire x1="569" y1="15" x2="384" y2="15" width="0.254" layer="100"/>
+<wire x1="384" y1="15" x2="384" y2="0" width="0.254" layer="100"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A3_LANDSCAPE_FIRST">
+<gates>
+<gate name="G$1" symbol="A3_LANDSCAPE_FIRST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A3_LANDSCAPE_NEXT">
+<gates>
+<gate name="G$1" symbol="A3_LANDSCAPE_NEXT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A3_PORTRAIT_FIRST">
+<gates>
+<gate name="G$1" symbol="A3_PORTRAIT_FIRST" x="-149.86" y="-210.82"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A3_PORTRAIT_NEXT">
+<gates>
+<gate name="G$1" symbol="A3_PORTRAIT_NEXT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A2_LANDSCAPE_FIRST">
+<gates>
+<gate name="G$1" symbol="A2_LANDSCAPE_FIRST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A2_LANDSCAPE_NEXT">
+<gates>
+<gate name="G$1" symbol="A2_LANDSCAPE_NEXT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A1_LANDSCAPE_FIRST">
+<gates>
+<gate name="G$1" symbol="A1_LANDSCAPE_FIRST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A1_LANDSCAPE_NEXT">
+<gates>
+<gate name="G$1" symbol="A1_LANDSCAPE_NEXT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A2_PORTRAIT_FIRST">
+<gates>
+<gate name="G$1" symbol="A2_PORTRAIT_FIRST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A2_PORTRAIT_NEXT">
+<gates>
+<gate name="G$1" symbol="A2_PORTRAIT_NEXT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A1_PORTRAIT_FIRST">
+<gates>
+<gate name="G$1" symbol="A1_PORTRAIT_FIRST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A1_PORTRAIT_NEXT">
+<gates>
+<gate name="G$1" symbol="A1_PORTRAIT_NEXT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
