@@ -1,0 +1,10 @@
+*~
+*.pyc
+*.origin
+.cproject
+.project
+build/
+.dep/
+*.log
+doc/
+*.*#*
