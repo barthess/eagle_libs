@@ -70,6 +70,8 @@
 <layer number="100" name="frame" color="13" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>Упрощенные рамки. &lt;br&gt;Предназначенны только для 
+габаритной ориентации схемы на листе. При печати эти рамки следует отключать.</description>
 <packages>
 </packages>
 <symbols>
