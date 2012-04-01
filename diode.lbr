@@ -842,34 +842,44 @@ CASE 152AC-01</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMBJ" prefix="VD">
+<deviceset name="TVS-UNIDIR-?J*A" prefix="VD">
+<description>Transient voltage supressor (unidurectional)</description>
 <gates>
 <gate name="G$1" symbol="STABILITRON" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SMBJ">
+<device name="SMB" package="SMBJ">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
+<technology name="28"/>
+<technology name="30"/>
+<technology name="33"/>
+<technology name="6V5"/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMBJ_BIDIR" prefix="VD" uservalue="yes">
+<deviceset name="TVS-BIDIR-?J*CA" prefix="VD" uservalue="yes">
+<description>Transient voltage supressor (bidirectional)</description>
 <gates>
 <gate name="G$1" symbol="STABILITRON-BIDIR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SMBJ-BIDIR">
+<device name="SMB" package="SMBJ-BIDIR">
 <connects>
 <connect gate="G$1" pin="A1" pad="A1"/>
 <connect gate="G$1" pin="A2" pad="A2"/>
 </connects>
 <technologies>
 <technology name=""/>
+<technology name="28"/>
+<technology name="30"/>
+<technology name="33"/>
+<technology name="6V5"/>
 </technologies>
 </device>
 </devices>
