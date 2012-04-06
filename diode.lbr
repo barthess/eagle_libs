@@ -225,7 +225,7 @@
 <wire x1="0.35" y1="-0.4" x2="-0.25" y2="0" width="0.2032" layer="21"/>
 <smd name="C" x="-1.27" y="0" dx="1.35" dy="0.65" layer="1"/>
 <smd name="A" x="1.27" y="0" dx="1.35" dy="0.65" layer="1"/>
-<text x="-1.016" y="1.016" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.016" y="1.016" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-1.016" y="-1.778" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.45" y1="-0.5" x2="-0.25" y2="0.5" layer="21"/>
 <polygon width="0.2032" layer="21">
@@ -287,7 +287,7 @@
 <wire x1="0.35" y1="-0.3" x2="-0.25" y2="0" width="0.2032" layer="21"/>
 <smd name="C" x="-1.143" y="0" dx="1" dy="0.6" layer="1"/>
 <smd name="A" x="1.143" y="0" dx="1" dy="0.6" layer="1"/>
-<text x="-0.9" y="0.78" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-0.9" y="0.78" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-0.9" y="-1.805" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.35" y1="-0.2" x2="-0.9" y2="0.2" layer="51"/>
 <rectangle x1="0.9" y1="-0.2" x2="1.35" y2="0.2" layer="51"/>
@@ -390,7 +390,7 @@ INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf</description>
 <wire x1="-0.9" y1="-0.5" x2="-0.9" y2="0.5" width="0.0508" layer="51"/>
 <smd name="C" x="-0.762" y="0" dx="0.9" dy="0.8" layer="1"/>
 <smd name="A" x="0.762" y="0" dx="0.9" dy="0.8" layer="1"/>
-<text x="-1.27" y="0.9525" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.27" y="0.9525" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-1.27" y="-1.7463" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 <rectangle x1="-0.9" y1="-0.5" x2="-0.6" y2="0.5" layer="51"/>
@@ -560,7 +560,7 @@ diameter 5.3 mm, 9.5 length, CASE 267?05</description>
 <wire x1="-0.6" y1="0.7" x2="-0.6" y2="-0.7" width="0.2032" layer="21"/>
 <smd name="C" x="-2.2" y="0" dx="1.2" dy="1.9" layer="1"/>
 <smd name="A" x="2.2" y="0" dx="1.2" dy="1.9" layer="1"/>
-<text x="-2.159" y="1.905" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.159" y="1.905" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.159" y="-2.794" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.6" y1="-0.9" x2="-2.2" y2="0.9" layer="51"/>
 <rectangle x1="2.2" y1="-0.9" x2="2.6" y2="0.9" layer="51" rot="R180"/>
@@ -586,7 +586,7 @@ CASE 152AC-01</description>
 <wire x1="-0.5" y1="-0.3" x2="-0.5" y2="0.3" width="0.0508" layer="51"/>
 <smd name="C" x="-0.365" y="0" dx="0.47" dy="0.6" layer="1"/>
 <smd name="A" x="0.3" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="-0.9" y="0.7" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-0.9" y="0.7" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-0.9" y="-1.5" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-0.3" x2="-0.2" y2="0.3" layer="51"/>
 </package>
@@ -601,7 +601,7 @@ CASE 152AC-01</description>
 <wire x1="-0.5" y1="-0.3" x2="-0.5" y2="0.3" width="0.0508" layer="51"/>
 <smd name="C" x="-0.365" y="0" dx="0.47" dy="0.6" layer="1"/>
 <smd name="A" x="0.3" y="0" dx="0.6" dy="0.6" layer="1"/>
-<text x="-0.7" y="0.5" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="-0.7" y="0.5" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-0.7" y="-1.3" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-0.3" y1="-0.3" x2="-0.2" y2="0.3" layer="51"/>
 </package>
