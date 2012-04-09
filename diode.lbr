@@ -125,8 +125,8 @@
 <wire x1="0.6351" y1="0.7938" x2="0.6351" y2="-0.7938" width="0.2032" layer="21"/>
 <wire x1="0.6351" y1="-0.7938" x2="-0.635" y2="0" width="0.2032" layer="21"/>
 <wire x1="-0.7937" y1="0.7938" x2="-0.7937" y2="-0.7938" width="0.2032" layer="21"/>
-<smd name="C" x="-2.2225" y="0" dx="2" dy="2.5" layer="1" thermals="no"/>
-<smd name="A" x="2.2225" y="0" dx="2" dy="2.5" layer="1" thermals="no"/>
+<smd name="C" x="-2.2225" y="0" dx="2" dy="2.5" layer="1"/>
+<smd name="A" x="2.2225" y="0" dx="2" dy="2.5" layer="1"/>
 <text x="-2.54" y="1.905" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.54" y="-2.8575" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.3499" y1="-1.5875" x2="-0.7938" y2="1.5875" layer="51"/>
@@ -152,8 +152,8 @@
 <wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="0.2032" layer="21"/>
 <wire x1="0.635" y1="-0.635" x2="-0.4763" y2="0" width="0.2032" layer="21"/>
 <wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.2032" layer="21"/>
-<smd name="C" x="-2.2225" y="0" dx="2.4" dy="2.4" layer="1" thermals="no"/>
-<smd name="A" x="2.2225" y="0" dx="2.4" dy="2.4" layer="1" thermals="no"/>
+<smd name="C" x="-2.2225" y="0" dx="2.4" dy="2.4" layer="1"/>
+<smd name="A" x="2.2225" y="0" dx="2.4" dy="2.4" layer="1"/>
 <text x="-2.2225" y="2.2225" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.2225" y="-3.175" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
@@ -179,8 +179,8 @@
 <wire x1="0.6351" y1="0.7938" x2="0.6351" y2="-0.7938" width="0.2032" layer="21"/>
 <wire x1="0.6351" y1="-0.7938" x2="-0.635" y2="0" width="0.2032" layer="21"/>
 <wire x1="-0.7937" y1="0.7938" x2="-0.7937" y2="-0.7938" width="0.2032" layer="21"/>
-<smd name="C" x="-3.4925" y="0" dx="2.8" dy="3.8" layer="1" thermals="no"/>
-<smd name="A" x="3.4925" y="0" dx="2.8" dy="3.8" layer="1" thermals="no"/>
+<smd name="C" x="-3.4925" y="0" dx="2.8" dy="3.8" layer="1"/>
+<smd name="A" x="3.4925" y="0" dx="2.8" dy="3.8" layer="1"/>
 <text x="-3.4925" y="3.4925" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-3.4925" y="-4.445" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
@@ -614,8 +614,8 @@ CASE 152AC-01</description>
 <wire x1="2.2" y1="-1.9" x2="2.2" y2="-1.527" width="0.2032" layer="21"/>
 <wire x1="2.2" y1="-1.527" x2="2.2" y2="1.527" width="0.2032" layer="51"/>
 <wire x1="2.2" y1="1.527" x2="2.2" y2="1.9" width="0.2032" layer="21"/>
-<smd name="A1" x="-2.2225" y="0" dx="2.4" dy="2.4" layer="1" thermals="no"/>
-<smd name="A2" x="2.2225" y="0" dx="2.4" dy="2.4" layer="1" thermals="no"/>
+<smd name="A1" x="-2.2225" y="0" dx="2.4" dy="2.4" layer="1"/>
+<smd name="A2" x="2.2225" y="0" dx="2.4" dy="2.4" layer="1"/>
 <text x="-2.2225" y="2.2225" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.2225" y="-3.175" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
@@ -627,8 +627,8 @@ CASE 152AC-01</description>
 <wire x1="-3.5606" y1="-3.105" x2="3.5606" y2="-3.105" width="0.2032" layer="21"/>
 <wire x1="-3.5606" y1="-3.105" x2="-3.5606" y2="3.105" width="0.2032" layer="51"/>
 <wire x1="3.5606" y1="-3.105" x2="3.5606" y2="3.105" width="0.2032" layer="51"/>
-<smd name="A1" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1" thermals="no"/>
-<smd name="A2" x="3.7" y="0" dx="2.8" dy="3.8" layer="1" thermals="no"/>
+<smd name="A1" x="-3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
+<smd name="A2" x="3.7" y="0" dx="2.8" dy="3.8" layer="1"/>
 <text x="-3.459" y="3.359" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-3.459" y="-4.3115" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="-4.094" y1="-1.0922" x2="-3.5606" y2="1.0922" layer="51"/>
@@ -639,8 +639,8 @@ CASE 152AC-01</description>
 <wire x1="-2.2" y1="-1.6" x2="2.2" y2="-1.6" width="0.2032" layer="21"/>
 <wire x1="-2.2" y1="1.6" x2="-2.2" y2="-1.6" width="0.2032" layer="51"/>
 <wire x1="2.2" y1="1.6" x2="2.2" y2="-1.6" width="0.2032" layer="51"/>
-<smd name="A1" x="-2.2225" y="0" dx="2" dy="2.5" layer="1" thermals="no"/>
-<smd name="A2" x="2.2225" y="0" dx="2" dy="2.5" layer="1" thermals="no"/>
+<smd name="A1" x="-2.2225" y="0" dx="2" dy="2.5" layer="1"/>
+<smd name="A2" x="2.2225" y="0" dx="2" dy="2.5" layer="1"/>
 <text x="-2.54" y="1.905" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="-2.54" y="-2.8575" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-2.8575" y1="-1.1113" x2="-2.2225" y2="1.1113" layer="51"/>
