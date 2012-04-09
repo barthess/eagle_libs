@@ -1728,7 +1728,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="2N706" prefix="Q">
+<deviceset name="2N706" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1746,7 +1746,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3055" prefix="Q">
+<deviceset name="2N3055" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -1765,7 +1765,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3054" prefix="Q">
+<deviceset name="2N3054" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -1784,7 +1784,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N2369*" prefix="Q">
+<deviceset name="2N2369*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1802,7 +1802,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC238" prefix="Q">
+<deviceset name="BC238" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1820,7 +1820,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BFX59*" prefix="Q">
+<deviceset name="BFX59*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1838,7 +1838,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BF199*" prefix="Q">
+<deviceset name="BF199*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1856,7 +1856,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC517*" prefix="Q">
+<deviceset name="BC517*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -1874,7 +1874,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N2219" prefix="Q">
+<deviceset name="2N2219" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1892,7 +1892,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3704" prefix="Q">
+<deviceset name="2N3704" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1910,7 +1910,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N4013" prefix="Q">
+<deviceset name="2N4013" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1928,7 +1928,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N2222*" prefix="Q">
+<deviceset name="2N2222*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1947,7 +1947,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSX62*" prefix="Q">
+<deviceset name="BSX62*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1965,7 +1965,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSY34*" prefix="Q">
+<deviceset name="BSY34*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -1983,7 +1983,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC107" prefix="Q">
+<deviceset name="BC107" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2001,7 +2001,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC237" prefix="Q">
+<deviceset name="BC237" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2019,7 +2019,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC337*" prefix="Q">
+<deviceset name="BC337*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2040,7 +2040,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC547*" prefix="Q">
+<deviceset name="BC547*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2060,7 +2060,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCY59*" prefix="Q">
+<deviceset name="BCY59*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2081,7 +2081,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCY66*" prefix="Q">
+<deviceset name="BCY66*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2099,7 +2099,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD239*" prefix="Q">
+<deviceset name="BD239*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2117,7 +2117,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD795*" prefix="Q">
+<deviceset name="BD795*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2135,7 +2135,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD235*" prefix="Q">
+<deviceset name="BD235*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2153,7 +2153,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD535*" prefix="Q">
+<deviceset name="BD535*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2171,7 +2171,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD677*" prefix="Q">
+<deviceset name="BD677*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -2189,7 +2189,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD787*" prefix="Q">
+<deviceset name="BD787*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2207,7 +2207,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSX46*" prefix="Q">
+<deviceset name="BSX46*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2225,7 +2225,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSX47*" prefix="Q">
+<deviceset name="BSX47*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2243,7 +2243,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSS51*" prefix="Q">
+<deviceset name="BSS51*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -2261,7 +2261,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSX63*" prefix="Q">
+<deviceset name="BSX63*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2279,7 +2279,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSS52*" prefix="Q">
+<deviceset name="BSS52*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -2297,7 +2297,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJE801*" prefix="Q">
+<deviceset name="MJE801*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -2315,7 +2315,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJE340*" prefix="Q">
+<deviceset name="MJE340*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2343,7 +2343,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N5496" prefix="Q">
+<deviceset name="2N5496" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2361,7 +2361,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N6292" prefix="Q">
+<deviceset name="2N6292" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2379,7 +2379,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N1613" prefix="Q">
+<deviceset name="2N1613" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2397,7 +2397,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD139*" prefix="Q">
+<deviceset name="BD139*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2415,7 +2415,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD865*" prefix="Q">
+<deviceset name="BD865*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2433,7 +2433,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N1893" prefix="Q">
+<deviceset name="2N1893" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2451,7 +2451,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N4923" prefix="Q">
+<deviceset name="2N4923" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2469,7 +2469,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJ1001*" prefix="Q">
+<deviceset name="MJ1001*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN-DAR2" x="0" y="0"/>
@@ -2488,7 +2488,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP131*" prefix="Q">
+<deviceset name="TIP131*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -2506,7 +2506,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N2405" prefix="Q">
+<deviceset name="2N2405" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2524,7 +2524,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N5681" prefix="Q">
+<deviceset name="2N5681" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2542,7 +2542,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP31C*" prefix="Q">
+<deviceset name="TIP31C*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2570,7 +2570,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TIP122*" prefix="Q">
+<deviceset name="TIP122*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -2588,7 +2588,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDW73*" prefix="Q">
+<deviceset name="BDW73*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -2606,7 +2606,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3441" prefix="Q">
+<deviceset name="2N3441" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -2625,7 +2625,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3583" prefix="Q">
+<deviceset name="2N3583" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -2644,7 +2644,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD127*" prefix="Q">
+<deviceset name="BD127*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2662,7 +2662,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3440" prefix="Q">
+<deviceset name="2N3440" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2680,7 +2680,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BF259*" prefix="Q">
+<deviceset name="BF259*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2698,7 +2698,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BF459*" prefix="Q">
+<deviceset name="BF459*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2716,7 +2716,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BF859*" prefix="Q">
+<deviceset name="BF859*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2734,7 +2734,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BU111*" prefix="Q">
+<deviceset name="BU111*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -2753,7 +2753,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BU205*" prefix="Q">
+<deviceset name="BU205*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -2772,7 +2772,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BU208*" prefix="Q">
+<deviceset name="BU208*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -2791,7 +2791,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3585" prefix="Q">
+<deviceset name="2N3585" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -2810,7 +2810,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3739" prefix="Q">
+<deviceset name="2N3739" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -2829,7 +2829,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDY93*" prefix="Q">
+<deviceset name="BDY93*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -2848,7 +2848,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3439" prefix="Q">
+<deviceset name="2N3439" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2866,7 +2866,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD243*" prefix="Q">
+<deviceset name="BD243*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2884,7 +2884,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD244*" prefix="Q">
+<deviceset name="BD244*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2902,7 +2902,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD249*" prefix="Q">
+<deviceset name="BD249*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2920,7 +2920,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD303*" prefix="Q">
+<deviceset name="BD303*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2938,7 +2938,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD705*" prefix="Q">
+<deviceset name="BD705*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -2956,7 +2956,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDX53*" prefix="Q">
+<deviceset name="BDX53*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -2974,7 +2974,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDY92*" prefix="Q">
+<deviceset name="BDY92*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -2993,7 +2993,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3772" prefix="Q">
+<deviceset name="2N3772" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3012,7 +3012,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N5302" prefix="Q">
+<deviceset name="2N5302" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3031,7 +3031,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N6101" prefix="Q">
+<deviceset name="2N6101" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -3049,7 +3049,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD647*" prefix="Q">
+<deviceset name="BD647*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -3067,7 +3067,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDX54*" prefix="Q">
+<deviceset name="BDX54*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -3085,7 +3085,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N5686" prefix="Q">
+<deviceset name="2N5686" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3104,7 +3104,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N5878" prefix="Q">
+<deviceset name="2N5878" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3123,7 +3123,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N5038" prefix="Q">
+<deviceset name="2N5038" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3142,7 +3142,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD649*" prefix="Q">
+<deviceset name="BD649*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -3160,7 +3160,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDV65*" prefix="Q">
+<deviceset name="BDV65*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -3178,7 +3178,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDX87*" prefix="Q">
+<deviceset name="BDX87*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN-DAR2" x="0" y="0"/>
@@ -3197,7 +3197,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDX67*" prefix="Q">
+<deviceset name="BDX67*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN-DAR2" x="0" y="0"/>
@@ -3216,7 +3216,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDY56*" prefix="Q">
+<deviceset name="BDY56*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3235,7 +3235,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N4347" prefix="Q">
+<deviceset name="2N4347" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3254,7 +3254,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N4348" prefix="Q">
+<deviceset name="2N4348" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3273,7 +3273,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BDY58*" prefix="Q">
+<deviceset name="BDY58*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3292,7 +3292,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUX40*" prefix="Q">
+<deviceset name="BUX40*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3311,7 +3311,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUX24*" prefix="Q">
+<deviceset name="BUX24*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3330,7 +3330,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUX37*" prefix="Q">
+<deviceset name="BUX37*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN-DAR2" x="0" y="0"/>
@@ -3349,7 +3349,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUX80*" prefix="Q">
+<deviceset name="BUX80*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3368,7 +3368,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUX84*" prefix="Q">
+<deviceset name="BUX84*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -3386,7 +3386,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUX85*" prefix="Q">
+<deviceset name="BUX85*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -3404,7 +3404,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJ10007*" prefix="Q">
+<deviceset name="MJ10007*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN-DAR2" x="0" y="0"/>
@@ -3423,7 +3423,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUW74*" prefix="Q">
+<deviceset name="BUW74*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3442,7 +3442,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUW75*" prefix="Q">
+<deviceset name="BUW75*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3461,7 +3461,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3442" prefix="Q">
+<deviceset name="2N3442" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3480,7 +3480,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N5631" prefix="Q">
+<deviceset name="2N5631" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3499,7 +3499,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BU807*" prefix="Q">
+<deviceset name="BU807*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -3517,7 +3517,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJ413*" prefix="Q">
+<deviceset name="MJ413*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN2" x="0" y="0"/>
@@ -3536,7 +3536,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N2646" prefix="Q">
+<deviceset name="2N2646" prefix="VT">
 <description>&lt;b&gt;UNIJUNCTION Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="UJP-N" x="0" y="0"/>
@@ -3554,7 +3554,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJ3001*" prefix="Q">
+<deviceset name="MJ3001*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN-DAR2" x="0" y="0"/>
@@ -3573,7 +3573,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N4104" prefix="Q">
+<deviceset name="2N4104" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
@@ -3591,7 +3591,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3565" prefix="Q">
+<deviceset name="2N3565" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
@@ -3609,7 +3609,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N4416" prefix="Q">
+<deviceset name="2N4416" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
@@ -3627,7 +3627,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N2102" prefix="Q">
+<deviceset name="2N2102" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
@@ -3645,7 +3645,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NTE103A*" prefix="Q">
+<deviceset name="NTE103A*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
@@ -3663,7 +3663,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N2484" prefix="Q">
+<deviceset name="2N2484" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
@@ -3681,7 +3681,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJE182*" prefix="Q">
+<deviceset name="MJE182*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -3709,7 +3709,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJE181*" prefix="Q">
+<deviceset name="MJE181*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="-5.08" y="0"/>
@@ -3737,7 +3737,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N5089" prefix="Q">
+<deviceset name="2N5089" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -3755,7 +3755,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N5088" prefix="Q">
+<deviceset name="2N5088" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -3773,7 +3773,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3904" prefix="Q">
+<deviceset name="2N3904" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G1" symbol="NPN" x="0" y="0"/>
@@ -3791,7 +3791,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC846*" prefix="Q">
+<deviceset name="BC846*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -3812,7 +3812,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC847*" prefix="Q">
+<deviceset name="BC847*" prefix="VT">
 <description>NPN Transistor</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -3836,7 +3836,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC848*" prefix="Q">
+<deviceset name="BC848*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -3873,7 +3873,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CA3082" prefix="Q">
+<deviceset name="CA3082" prefix="VT">
 <description>&lt;b&gt;TRANSISTOR ARRAY&lt;/b&gt;&lt;p&gt;
 general purpose, high current&lt;p&gt;
 common collector</description>
@@ -3933,7 +3933,7 @@ common collector</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CA3081*" prefix="Q">
+<deviceset name="CA3081*" prefix="VT">
 <description>&lt;b&gt;TRANSISTOR ARRAY&lt;/b&gt;&lt;p&gt;
 general purpose, high current&lt;p&gt;
 common emitter</description>
@@ -3993,7 +3993,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCX70*" prefix="Q">
+<deviceset name="BCX70*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4011,7 +4011,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N2218" prefix="Q">
+<deviceset name="2N2218" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4029,7 +4029,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N2896" prefix="Q">
+<deviceset name="2N2896" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4047,7 +4047,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3700" prefix="Q">
+<deviceset name="2N3700" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4065,7 +4065,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N930" prefix="Q">
+<deviceset name="2N930" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4083,7 +4083,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC107A" prefix="Q">
+<deviceset name="BC107A" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4101,7 +4101,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC107B" prefix="Q">
+<deviceset name="BC107B" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4119,7 +4119,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC108B" prefix="Q">
+<deviceset name="BC108B" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4137,7 +4137,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC108C" prefix="Q">
+<deviceset name="BC108C" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4155,7 +4155,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCY58*" prefix="Q">
+<deviceset name="BCY58*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4174,7 +4174,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSS71*" prefix="Q">
+<deviceset name="BSS71*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4192,7 +4192,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSS72*" prefix="Q">
+<deviceset name="BSS72*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4210,7 +4210,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSS73*" prefix="Q">
+<deviceset name="BSS73*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4228,7 +4228,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSX20*" prefix="Q">
+<deviceset name="BSX20*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4246,7 +4246,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N1711" prefix="Q">
+<deviceset name="2N1711" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4264,7 +4264,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N2219A" prefix="Q">
+<deviceset name="2N2219A" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4282,7 +4282,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3019" prefix="Q">
+<deviceset name="2N3019" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4300,7 +4300,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N3020" prefix="Q">
+<deviceset name="2N3020" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4318,7 +4318,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC140-10" prefix="Q">
+<deviceset name="BC140-10" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4336,7 +4336,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC140-16" prefix="Q">
+<deviceset name="BC140-16" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4354,7 +4354,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC141-10" prefix="Q">
+<deviceset name="BC141-10" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4372,7 +4372,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC141-16" prefix="Q">
+<deviceset name="BC141-16" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4390,7 +4390,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BFY50*" prefix="Q">
+<deviceset name="BFY50*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4408,7 +4408,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BSX45*" prefix="Q">
+<deviceset name="BSX45*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4426,7 +4426,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC338*" prefix="Q">
+<deviceset name="BC338*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4447,7 +4447,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC447*" prefix="Q">
+<deviceset name="BC447*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4465,7 +4465,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC449*" prefix="Q">
+<deviceset name="BC449*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4483,7 +4483,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC487*" prefix="Q">
+<deviceset name="BC487*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4501,7 +4501,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC489*" prefix="Q">
+<deviceset name="BC489*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4519,7 +4519,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC546*" prefix="Q">
+<deviceset name="BC546*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4538,7 +4538,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC548*" prefix="Q">
+<deviceset name="BC548*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4558,7 +4558,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC549*" prefix="Q">
+<deviceset name="BC549*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4577,7 +4577,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC550*" prefix="Q">
+<deviceset name="BC550*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4596,7 +4596,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC618*" prefix="Q">
+<deviceset name="BC618*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4614,7 +4614,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCX59*" prefix="Q">
+<deviceset name="BCX59*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4632,7 +4632,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC807*" prefix="Q">
+<deviceset name="BC807*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4650,7 +4650,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC808*" prefix="Q">
+<deviceset name="BC808*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4668,7 +4668,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC817*" prefix="Q">
+<deviceset name="BC817*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4691,7 +4691,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC818*" prefix="Q">
+<deviceset name="BC818*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4711,7 +4711,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC849*" prefix="Q">
+<deviceset name="BC849*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4729,7 +4729,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC850*" prefix="Q">
+<deviceset name="BC850*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4747,7 +4747,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCF29*" prefix="Q">
+<deviceset name="BCF29*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4765,7 +4765,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCF30*" prefix="Q">
+<deviceset name="BCF30*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4783,7 +4783,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCF32*" prefix="Q">
+<deviceset name="BCF32*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4801,7 +4801,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCF33*" prefix="Q">
+<deviceset name="BCF33*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4819,7 +4819,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCF81*" prefix="Q">
+<deviceset name="BCF81*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4837,7 +4837,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCV71*" prefix="Q">
+<deviceset name="BCV71*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4855,7 +4855,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCV72*" prefix="Q">
+<deviceset name="BCV72*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4873,7 +4873,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCW31*" prefix="Q">
+<deviceset name="BCW31*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4891,7 +4891,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCW32*" prefix="Q">
+<deviceset name="BCW32*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4909,7 +4909,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCW33*" prefix="Q">
+<deviceset name="BCW33*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4927,7 +4927,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCW60*" prefix="Q">
+<deviceset name="BCW60*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4945,7 +4945,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCW71*" prefix="Q">
+<deviceset name="BCW71*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4963,7 +4963,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCW72*" prefix="Q">
+<deviceset name="BCW72*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4981,7 +4981,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCW81*" prefix="Q">
+<deviceset name="BCW81*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -4999,7 +4999,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCX19*" prefix="Q">
+<deviceset name="BCX19*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5017,7 +5017,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCX20*" prefix="Q">
+<deviceset name="BCX20*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5035,7 +5035,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MMBTA13*" prefix="Q">
+<deviceset name="MMBTA13*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -5053,7 +5053,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MMBTA14*" prefix="Q">
+<deviceset name="MMBTA14*" prefix="VT">
 <description>&lt;b&gt;NPN Darlington Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DAR" x="0" y="0"/>
@@ -5071,7 +5071,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MUN2211*" prefix="Q">
+<deviceset name="MUN2211*" prefix="VT">
 <description>&lt;b&gt;NPN Bias Resistor Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DRIVER" x="0" y="0"/>
@@ -5089,7 +5089,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MUN2212*" prefix="Q">
+<deviceset name="MUN2212*" prefix="VT">
 <description>&lt;b&gt;NPN Bias Resistor Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DRIVER" x="0" y="0"/>
@@ -5107,7 +5107,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MUN2213*" prefix="Q">
+<deviceset name="MUN2213*" prefix="VT">
 <description>&lt;b&gt;NPN Bias Resistor Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DRIVER" x="0" y="0"/>
@@ -5125,7 +5125,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MUN2214*" prefix="Q">
+<deviceset name="MUN2214*" prefix="VT">
 <description>&lt;b&gt;NPN Bias Resistor Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN-DRIVER" x="0" y="0"/>
@@ -5143,7 +5143,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BCX70SMD" prefix="Q">
+<deviceset name="BCX70SMD" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5161,7 +5161,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NTE103A" prefix="Q">
+<deviceset name="NTE103A" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="-2.54" y="0"/>
@@ -5179,7 +5179,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM394" prefix="Q">
+<deviceset name="LM394" prefix="VT">
 <description>&lt;b&gt;LM394 Dual Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN" x="-5.08" y="0"/>
@@ -5214,7 +5214,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC184" prefix="Q">
+<deviceset name="BC184" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="2.54" y="0"/>
@@ -5232,7 +5232,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPSA05" prefix="Q">
+<deviceset name="MPSA05" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5250,7 +5250,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MMBTA05*" prefix="Q">
+<deviceset name="MMBTA05*" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5269,7 +5269,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPSA06" prefix="Q">
+<deviceset name="MPSA06" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5287,7 +5287,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MMBT3904*" prefix="Q">
+<deviceset name="MMBT3904*" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5306,7 +5306,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MMBT5088*" prefix="Q">
+<deviceset name="MMBT5088*" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5325,7 +5325,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MMBT5089*" prefix="Q">
+<deviceset name="MMBT5089*" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5344,7 +5344,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="P2N2222A" prefix="Q">
+<deviceset name="P2N2222A" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5362,7 +5362,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PZT3904" prefix="Q">
+<deviceset name="PZT3904" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN2C" x="0" y="0"/>
@@ -5381,7 +5381,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PN2222A" prefix="Q">
+<deviceset name="PN2222A" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5399,7 +5399,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MMBT2222*" prefix="Q">
+<deviceset name="MMBT2222*" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5417,7 +5417,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NTE199" prefix="Q">
+<deviceset name="NTE199" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5435,7 +5435,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NTE123AP" prefix="Q">
+<deviceset name="NTE123AP" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5453,7 +5453,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N6497" prefix="Q">
+<deviceset name="2N6497" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5481,7 +5481,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PMBT2222A" prefix="Q">
+<deviceset name="PMBT2222A" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5499,7 +5499,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="FZT493" prefix="Q">
+<deviceset name="FZT493" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN2" x="0" y="0"/>
@@ -5518,7 +5518,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MRF901" prefix="Q">
+<deviceset name="MRF901" prefix="VT">
 <description>NPN RF TRANSISTOR</description>
 <gates>
 <gate name="G$1" symbol="NPN-E2" x="0" y="0"/>
@@ -5537,7 +5537,7 @@ common emitter</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CMPTA06" prefix="Q">
+<deviceset name="CMPTA06" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;&lt;p&gt;
 complimentary to CMPTA56</description>
 <gates>
@@ -5556,7 +5556,7 @@ complimentary to CMPTA56</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAT-01H" prefix="Q">
+<deviceset name="MAT-01H" prefix="VT">
 <description>Dual &lt;b&gt;TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN-L" x="-5.08" y="0" addlevel="always" swaplevel="1"/>
@@ -5578,7 +5578,7 @@ complimentary to CMPTA56</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAT-02H" prefix="Q">
+<deviceset name="MAT-02H" prefix="VT">
 <description>Dual &lt;b&gt;TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="NPN-L" x="-5.08" y="0" addlevel="always" swaplevel="1"/>
@@ -5649,7 +5649,7 @@ complimentary to CMPTA56</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPSA18" prefix="Q">
+<deviceset name="MPSA18" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5667,7 +5667,7 @@ complimentary to CMPTA56</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BC109" prefix="Q">
+<deviceset name="BC109" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5695,7 +5695,7 @@ complimentary to CMPTA56</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="2N4401" prefix="Q">
+<deviceset name="2N4401" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5713,7 +5713,7 @@ complimentary to CMPTA56</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJE243" prefix="Q">
+<deviceset name="MJE243" prefix="VT">
 <description>&lt;b&gt;NPN Transistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5741,7 +5741,7 @@ complimentary to CMPTA56</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPSA42" prefix="Q">
+<deviceset name="MPSA42" prefix="VT">
 <description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
@@ -5759,7 +5759,7 @@ complimentary to CMPTA56</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MJD31" prefix="Q">
+<deviceset name="MJD31" prefix="VT">
 <description>NPN Epitaxial Silicon Transistor</description>
 <gates>
 <gate name="G$1" symbol="NPN" x="0" y="0"/>
