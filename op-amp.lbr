@@ -346,6 +346,27 @@
 <wire x1="7.62" y1="-2.54" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="LM311">
+<pin name="IN-" x="-20.32" y="5.08" length="middle" direction="in" function="dot"/>
+<pin name="IN+" x="-20.32" y="2.54" length="middle" direction="in"/>
+<pin name="C_OUT" x="20.32" y="5.08" length="middle" direction="out" rot="R180"/>
+<wire x1="-15.24" y1="7.62" x2="-15.24" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="15.24" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="15.24" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="15.24" y1="7.62" x2="5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-15.24" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<text x="-1.016" y="4.318" size="1.778" layer="94">*==</text>
+<text x="-7.874" y="8.636" size="1.524" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.524" layer="96">&gt;VALUE</text>
+<pin name="E_OUT" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="BAL" x="-20.32" y="-2.54" length="middle"/>
+<pin name="BALSTR" x="-20.32" y="-5.08" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LM2904M" prefix="DA">
@@ -366,6 +387,53 @@
 <connect gate=".2" pin="B" pad="7"/>
 <connect gate=".3" pin="GND" pad="4"/>
 <connect gate=".3" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM311" prefix="DA">
+<gates>
+<gate name=".1" symbol="LM311" x="2.54" y="0" addlevel="always"/>
+<gate name=".2" symbol="PWRN" x="2.54" y="-20.32" addlevel="always"/>
+</gates>
+<devices>
+<device name="D" package="SO08">
+<connects>
+<connect gate=".1" pin="BAL" pad="5"/>
+<connect gate=".1" pin="BALSTR" pad="6"/>
+<connect gate=".1" pin="C_OUT" pad="7"/>
+<connect gate=".1" pin="E_OUT" pad="1"/>
+<connect gate=".1" pin="IN+" pad="2"/>
+<connect gate=".1" pin="IN-" pad="3"/>
+<connect gate=".2" pin="GND" pad="4"/>
+<connect gate=".2" pin="VCC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IL311A" prefix="DA">
+<description>Intergal clone of LM311 comparator.</description>
+<gates>
+<gate name=".1" symbol="LM311" x="2.54" y="0" addlevel="always"/>
+<gate name=".2" symbol="PWRN" x="2.54" y="-20.32" addlevel="always"/>
+</gates>
+<devices>
+<device name="D" package="SO08">
+<connects>
+<connect gate=".1" pin="BAL" pad="5"/>
+<connect gate=".1" pin="BALSTR" pad="6"/>
+<connect gate=".1" pin="C_OUT" pad="7"/>
+<connect gate=".1" pin="E_OUT" pad="1"/>
+<connect gate=".1" pin="IN+" pad="2"/>
+<connect gate=".1" pin="IN-" pad="3"/>
+<connect gate=".2" pin="GND" pad="4"/>
+<connect gate=".2" pin="VCC" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
