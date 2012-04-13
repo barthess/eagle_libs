@@ -172,6 +172,7 @@
 <rectangle x1="-1.524" y1="-11.684" x2="-1.016" y2="-11.176" layer="51"/>
 <rectangle x1="-1.524" y1="-9.144" x2="-1.016" y2="-8.636" layer="51"/>
 <rectangle x1="1.016" y1="-9.144" x2="1.524" y2="-8.636" layer="51"/>
+<text x="-5.6388" y="-3.8862" size="1.016" layer="25" ratio="18" rot="R90">&gt;LABEL</text>
 </package>
 <package name="PLD_2X10_PSEUDOSMD">
 <wire x1="11.26" y1="16.5" x2="2.26" y2="16.5" width="0.127" layer="51"/>
@@ -215,6 +216,7 @@
 <rectangle x1="-1.27" y1="-6.6675" x2="8.255" y2="-6.0325" layer="51"/>
 <rectangle x1="-1.27" y1="-9.2075" x2="8.255" y2="-8.5725" layer="51"/>
 <rectangle x1="-1.27" y1="-11.7475" x2="8.255" y2="-11.1125" layer="51"/>
+<text x="-3.0988" y="-3.2512" size="1.016" layer="25" ratio="18" rot="R90">&gt;LABEL</text>
 </package>
 <package name="TYCO-174053">
 <pad name="1" x="5.55" y="7.7" drill="1" shape="square" first="yes"/>
@@ -265,6 +267,7 @@
 <wire x1="16.25" y1="-11.5" x2="16.25" y2="-12.75" width="0.2032" layer="51"/>
 <text x="10.16" y="8.89" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="3.81" y="0" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="18.3388" y="8.8138" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
 <package name="TYCO-174053(2.54)">
 <pad name="1" x="5.3848" y="5.0292" drill="1" shape="square" first="yes"/>
@@ -315,6 +318,7 @@
 <wire x1="16.25" y1="-11.5" x2="16.25" y2="-12.75" width="0.2032" layer="51"/>
 <text x="10.16" y="8.89" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 <text x="3.81" y="0" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="16.4338" y="8.8138" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
 <package name="TYCO-174049">
 <pad name="1" x="6.05" y="7.7" drill="1" shape="square" first="yes"/>
@@ -360,6 +364,7 @@
 <wire x1="7.75" y1="-11.25" x2="7.75" y2="-12.75" width="0.2032" layer="51"/>
 <wire x1="7.75" y1="-11.25" x2="11.75" y2="-11.25" width="0.2032" layer="51"/>
 <wire x1="11.75" y1="-11.25" x2="11.75" y2="-12.75" width="0.2032" layer="51"/>
+<text x="3.0988" y="8.8138" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
 <package name="TYCO-174049(2.54)">
 <pad name="1" x="5.969" y="4.699" drill="1" shape="square" first="yes"/>
@@ -405,6 +410,7 @@
 <wire x1="7.75" y1="-11.25" x2="7.75" y2="-12.75" width="0.2032" layer="51"/>
 <wire x1="7.75" y1="-11.25" x2="11.75" y2="-11.25" width="0.2032" layer="51"/>
 <wire x1="11.75" y1="-11.25" x2="11.75" y2="-12.75" width="0.2032" layer="51"/>
+<text x="3.0988" y="8.8138" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
 <package name="PLD_1X03">
 <wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
@@ -435,8 +441,7 @@
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<text x="-2.54" y="-0.635" size="1.016" layer="21" ratio="18">1</text>
-<text x="6.985" y="-0.635" size="1.016" layer="21" ratio="18">3</text>
+<text x="4.3688" y="1.8288" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
 <package name="PLD_1X03_LONGPAD">
 <wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
@@ -468,6 +473,7 @@
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<text x="4.3688" y="1.8288" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
 <package name="PLD_1X03_PSEUDOSMD">
 <wire x1="1.1" y1="3.8" x2="-1.55" y2="3.8" width="0.127" layer="51"/>
@@ -483,6 +489,7 @@
 <rectangle x1="-3.81" y1="2.2225" x2="5.715" y2="2.8575" layer="51"/>
 <rectangle x1="-3.81" y1="-0.3175" x2="5.715" y2="0.3175" layer="51"/>
 <rectangle x1="-3.81" y1="-2.8575" x2="5.715" y2="-2.2225" layer="51"/>
+<text x="-6.9088" y="-3.2512" size="1.016" layer="25" ratio="18" rot="R90">&gt;LABEL</text>
 </package>
 <package name="PLD_2X16">
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
@@ -634,6 +641,7 @@
 <pad name="32" x="38.1" y="2.54" drill="1"/>
 <text x="-2.54" y="-0.635" size="1.016" layer="21" ratio="18">1</text>
 <text x="-2.54" y="1.905" size="1.016" layer="21" ratio="18">2</text>
+<text x="4.3688" y="4.3688" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
 <package name="PLD_2X8">
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
@@ -713,6 +721,7 @@
 <text x="-1.27" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
 <text x="-2.54" y="-0.635" size="1.016" layer="21" ratio="18">1</text>
 <text x="-2.54" y="1.905" size="1.016" layer="21" ratio="18">2</text>
+<text x="5.6388" y="4.3688" size="1.016" layer="25" ratio="18">&gt;LABEL</text>
 </package>
 <package name="PLD_1X2">
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
@@ -735,8 +744,6 @@
 <text x="-0.635" y="-2.54" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<text x="-2.54" y="-0.635" size="1.016" layer="21" ratio="18">1</text>
-<text x="4.445" y="-0.635" size="1.016" layer="21" ratio="18">2</text>
 </package>
 </packages>
 <symbols>
@@ -1492,7 +1499,9 @@
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="-PSEUDO_SMD" package="PLD_2X10_PSEUDOSMD">
@@ -1519,7 +1528,9 @@
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1550,7 +1561,9 @@
 <connect gate="G$1" pin="9" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="(2.54)" package="TYCO-174053(2.54)">
@@ -1573,7 +1586,9 @@
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1595,7 +1610,9 @@
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="(2.54)" package="TYCO-174049(2.54)">
@@ -1610,7 +1627,9 @@
 <connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1627,7 +1646,9 @@
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="LONGPAD" package="PLD_1X03_LONGPAD">
@@ -1637,7 +1658,9 @@
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="PSEUDOSMD" package="PLD_1X03_PSEUDOSMD">
@@ -1647,7 +1670,9 @@
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1693,7 +1718,9 @@
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -1723,7 +1750,9 @@
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
