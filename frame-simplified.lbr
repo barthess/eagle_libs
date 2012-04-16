@@ -313,6 +313,8 @@
 <wire x1="417" y1="9.5" x2="417" y2="2" width="0.5" layer="100"/>
 <wire x1="417" y1="294" x2="10" y2="294" width="0.5" layer="100"/>
 <text x="396" y="4" size="2.54" layer="100">A1_scaled</text>
+<wire x1="45" y1="287" x2="10" y2="287" width="0.5" layer="100"/>
+<wire x1="45" y1="287" x2="45" y2="294" width="0.5" layer="100"/>
 </symbol>
 <symbol name="A1_PORTRAIT_FIRSTS_SCALED">
 <wire x1="200.5" y1="28.5" x2="200.5" y2="3" width="0.5" layer="100"/>
@@ -341,6 +343,8 @@
 <wire x1="0" y1="419" x2="0" y2="0" width="0.5" layer="100"/>
 <wire x1="201.5" y1="10.5" x2="201.5" y2="3" width="0.5" layer="100"/>
 <wire x1="201.5" y1="10.5" x2="293" y2="10.5" width="0.5" layer="100"/>
+<wire x1="45" y1="409" x2="10" y2="409" width="0.5" layer="100"/>
+<wire x1="45" y1="409" x2="45" y2="416" width="0.5" layer="100"/>
 </symbol>
 <symbol name="A2_LANDSCAPE_FIRST_SCALED">
 <wire x1="200.5" y1="28.5" x2="200.5" y2="3" width="0.5" layer="100"/>
@@ -397,6 +401,38 @@
 <wire x1="0" y1="0" x2="0" y2="296" width="0.5" layer="100"/>
 <wire x1="0" y1="0" x2="209" y2="0" width="0.5" layer="100"/>
 <text x="184" y="5" size="2.54" layer="100">A2_scaled</text>
+<wire x1="114.5" y1="10.5" x2="114.5" y2="3" width="0.5" layer="100"/>
+<wire x1="114.5" y1="10.5" x2="206" y2="10.5" width="0.5" layer="100"/>
+<wire x1="45" y1="286" x2="10" y2="286" width="0.5" layer="100"/>
+<wire x1="45" y1="286" x2="45" y2="293" width="0.5" layer="100"/>
+</symbol>
+<symbol name="A3_PORTRAIT_NEXT_SCALED">
+<wire x1="145" y1="206" x2="145" y2="3" width="0.5" layer="100"/>
+<wire x1="145" y1="206" x2="10" y2="206" width="0.5" layer="100"/>
+<wire x1="10" y1="3" x2="10" y2="206" width="0.5" layer="100"/>
+<wire x1="10" y1="3" x2="145" y2="3" width="0.5" layer="100"/>
+<wire x1="148" y1="209" x2="148" y2="0" width="0.5" layer="100"/>
+<wire x1="148" y1="209" x2="0" y2="209" width="0.5" layer="100"/>
+<wire x1="0" y1="0" x2="0" y2="209" width="0.5" layer="100"/>
+<wire x1="0" y1="0" x2="148" y2="0" width="0.5" layer="100"/>
+<text x="123" y="5" size="2.54" layer="100">A3_scaled</text>
+<wire x1="53.5" y1="10.5" x2="53.5" y2="3" width="0.5" layer="100"/>
+<wire x1="53.5" y1="10.5" x2="145" y2="10.5" width="0.5" layer="100"/>
+<wire x1="45" y1="199" x2="10" y2="199" width="0.5" layer="100"/>
+<wire x1="45" y1="199" x2="45" y2="206" width="0.5" layer="100"/>
+</symbol>
+<symbol name="A3_LANDSCAPE_NEXT_SCALED">
+<wire x1="206" y1="3" x2="10" y2="3" width="0.5" layer="100"/>
+<wire x1="206" y1="3" x2="206" y2="145" width="0.5" layer="100"/>
+<wire x1="10" y1="145" x2="206" y2="145" width="0.5" layer="100"/>
+<wire x1="10" y1="145" x2="10" y2="3" width="0.5" layer="100"/>
+<wire x1="209" y1="0" x2="0" y2="0" width="0.5" layer="100"/>
+<wire x1="209" y1="0" x2="209" y2="148" width="0.5" layer="100"/>
+<wire x1="0" y1="148" x2="209" y2="148" width="0.5" layer="100"/>
+<wire x1="0" y1="148" x2="0" y2="0" width="0.5" layer="100"/>
+<text x="184" y="5" size="2.54" layer="100">A3_scaled</text>
+<wire x1="45" y1="138" x2="10" y2="138" width="0.5" layer="100"/>
+<wire x1="45" y1="138" x2="45" y2="145" width="0.5" layer="100"/>
 <wire x1="114.5" y1="10.5" x2="114.5" y2="3" width="0.5" layer="100"/>
 <wire x1="114.5" y1="10.5" x2="206" y2="10.5" width="0.5" layer="100"/>
 </symbol>
@@ -633,6 +669,30 @@
 <deviceset name="A2_LANDSCAPE_NEXT_SCALED">
 <gates>
 <gate name="G$1" symbol="A2_LANDSCAPE_NEXT_SCALED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A3_PORTRAIT_NEXT_SCALED">
+<gates>
+<gate name="G$1" symbol="A3_PORTRAIT_NEXT_SCALED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A3_LANDSCAPE_NEXT_SCALED">
+<gates>
+<gate name="G$1" symbol="A3_LANDSCAPE_NEXT_SCALED" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
