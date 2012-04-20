@@ -131,6 +131,8 @@
 <smd name="5" x="0.95" y="0" dx="1.05" dy="0.4" layer="1" rot="R180"/>
 <smd name="6" x="0.95" y="0.65" dx="1.05" dy="0.4" layer="1" rot="R180"/>
 <circle x="-1.016" y="1.27" radius="0.127" width="0.254" layer="21"/>
+<text x="-0.635" y="1.5875" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-0.635" y="-2.2225" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
 <package name="USB-MINIB">
 <description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
