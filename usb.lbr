@@ -190,6 +190,59 @@
 <text x="5.08" y="3.302" size="1.524" layer="95">&gt;NAME</text>
 <text x="4.826" y="-25.146" size="1.524" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="USB_MINI_(SOVOK-UGO)">
+<wire x1="20.32" y1="1.27" x2="7.62" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="1.27" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-8.89" x2="2.54" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-11.43" x2="2.54" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-13.97" x2="2.54" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-16.51" x2="2.54" y2="-19.05" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-19.05" x2="2.54" y2="-21.59" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-21.59" x2="7.62" y2="-21.59" width="0.1524" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="pin" length="short"/>
+<pin name="2" x="0" y="-2.54" visible="pin" length="short"/>
+<pin name="1" x="0" y="0" visible="pin" length="short"/>
+<pin name="5" x="0" y="-10.16" visible="pin" length="short"/>
+<pin name="4" x="0" y="-7.62" visible="pin" length="short"/>
+<pin name="6" x="0" y="-12.7" visible="pin" length="short"/>
+<pin name="7" x="0" y="-15.24" visible="pin" length="short"/>
+<pin name="8" x="0" y="-17.78" visible="pin" length="short"/>
+<pin name="9" x="0" y="-20.32" visible="pin" length="short"/>
+<wire x1="7.62" y1="-21.59" x2="20.32" y2="-21.59" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-21.59" x2="20.32" y2="-19.05" width="0.1524" layer="94"/>
+<text x="7.62" y="2.032" size="1.524" layer="95">&gt;NAME</text>
+<text x="6.096" y="-23.876" size="1.524" layer="96">&gt;VALUE</text>
+<wire x1="20.32" y1="-19.05" x2="20.32" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-16.51" x2="20.32" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-13.97" x2="20.32" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-11.43" x2="20.32" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-8.89" x2="20.32" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-6.35" x2="20.32" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-3.81" x2="20.32" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="20.32" y1="-1.27" x2="20.32" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="20.32" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="20.32" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-6.35" x2="20.32" y2="-6.35" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-8.89" x2="20.32" y2="-8.89" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-11.43" x2="20.32" y2="-11.43" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-13.97" x2="20.32" y2="-13.97" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-16.51" x2="20.32" y2="-16.51" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-19.05" x2="20.32" y2="-19.05" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-21.59" x2="7.62" y2="1.27" width="0.1524" layer="94"/>
+<text x="8.89" y="-1.016" size="1.778" layer="94">VBUS</text>
+<text x="8.89" y="-3.556" size="1.778" layer="94">D-</text>
+<text x="8.89" y="-6.096" size="1.778" layer="94">D+</text>
+<text x="8.89" y="-8.636" size="1.778" layer="94">ID</text>
+<text x="8.89" y="-11.176" size="1.778" layer="94">GND</text>
+<text x="8.89" y="-13.716" size="1.778" layer="94">SHIELD</text>
+<text x="8.89" y="-16.256" size="1.778" layer="94">SHIELD</text>
+<text x="8.89" y="-18.796" size="1.778" layer="94">SHIELD</text>
+<text x="8.89" y="-21.336" size="1.778" layer="94">SHIELD</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USBUF01W6" prefix="DA">
@@ -234,6 +287,29 @@ Also added pins to connect to mounting / shield pads if required (probably not g
 <connect gate="G$1" pin="SHIELD3" pad="SHIELD3"/>
 <connect gate="G$1" pin="SHIELD4" pad="SHIELD4"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB-MINIB_(SOVOK-UGO)" prefix="XS" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="USB_MINI_(SOVOK-UGO)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-MINIB">
+<connects>
+<connect gate="G$1" pin="1" pad="VBUS"/>
+<connect gate="G$1" pin="2" pad="D-"/>
+<connect gate="G$1" pin="3" pad="D+"/>
+<connect gate="G$1" pin="4" pad="ID"/>
+<connect gate="G$1" pin="5" pad="GND"/>
+<connect gate="G$1" pin="6" pad="SHIELD1"/>
+<connect gate="G$1" pin="7" pad="SHIELD2"/>
+<connect gate="G$1" pin="8" pad="SHIELD3"/>
+<connect gate="G$1" pin="9" pad="SHIELD4"/>
 </connects>
 <technologies>
 <technology name=""/>

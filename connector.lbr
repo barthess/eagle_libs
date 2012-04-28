@@ -774,7 +774,7 @@
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
-<package name="MOLEX-90130-*16">
+<package name="MOLEX-90130-16">
 <pad name="1" x="-0.00005625" y="0.00003125" drill="1" shape="octagon" first="yes"/>
 <pad name="2" x="-0.00005625" y="2.54003125" drill="1"/>
 <pad name="3" x="2.53994375" y="0.00003125" drill="1"/>
@@ -814,7 +814,7 @@
 <wire x1="20.3999875" y1="5.3850375" x2="11.40000625" y2="5.3850375" width="0.2032" layer="21"/>
 <wire x1="11.400034375" y1="5.38505625" x2="11.400034375" y2="6.13505625" width="0.2032" layer="21"/>
 </package>
-<package name="MOLEX-90130-*34">
+<package name="MOLEX-90130-34">
 <pad name="1" x="0" y="0" drill="1" shape="octagon" first="yes"/>
 <pad name="2" x="0" y="2.54" drill="1"/>
 <pad name="3" x="2.54" y="0" drill="1"/>
@@ -871,7 +871,7 @@
 <wire x1="43.2599875" y1="5.3850375" x2="22.83000625" y2="5.3850375" width="0.2032" layer="21"/>
 <wire x1="22.830034375" y1="5.38505625" x2="22.830034375" y2="6.13505625" width="0.2032" layer="21"/>
 </package>
-<package name="MOLEX-90130-*08">
+<package name="MOLEX-90130-08">
 <pad name="1" x="0" y="0" drill="1" shape="octagon" first="yes"/>
 <pad name="2" x="0" y="2.54" drill="1"/>
 <pad name="3" x="2.54" y="0" drill="1"/>
@@ -2303,7 +2303,7 @@ RJ45 with Ethernet Balun</description>
 <gate name="G$1" symbol="HEADER-16" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MOLEX-90130-*16">
+<device name="" package="MOLEX-90130-16">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -2333,7 +2333,7 @@ RJ45 with Ethernet Balun</description>
 <gate name="G$1" symbol="HEADER-08" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MOLEX-90130-*08">
+<device name="" package="MOLEX-90130-08">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2355,7 +2355,7 @@ RJ45 with Ethernet Balun</description>
 <gate name="G$1" symbol="HEADER-34" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MOLEX-90130-*34">
+<device name="" package="MOLEX-90130-34">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
