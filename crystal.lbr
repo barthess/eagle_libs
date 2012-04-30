@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.635" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -138,8 +138,8 @@
 <wire x1="-0.635" y1="0" x2="-1.27" y2="0" width="0.1524" layer="21"/>
 <pad name="1" x="-2.413" y="0" drill="0.8"/>
 <pad name="2" x="2.413" y="0" drill="0.8"/>
-<text x="-5.08" y="2.921" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-2.54" y="2.921" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-2.54" y="-3.556" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-3.81" y1="-2.794" x2="3.81" y2="2.794" layer="43"/>
 <rectangle x1="-4.318" y1="-2.54" x2="-3.81" y2="2.54" layer="43"/>
 <rectangle x1="-4.826" y1="-2.286" x2="-4.318" y2="2.286" layer="43"/>
@@ -284,8 +284,8 @@
 <wire x1="-3.429" y1="2.286" x2="-3.429" y2="-2.286" width="0.2032" layer="21" curve="180"/>
 <pad name="1" x="-2.54" y="0" drill="0.8" rot="R90"/>
 <pad name="2" x="2.54" y="0" drill="0.8" rot="R90"/>
-<text x="-5.08" y="-3.937" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-5.08" y="2.667" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.302" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-3.175" y="2.667" size="1.016" layer="25" ratio="18">&gt;NAME</text>
 </package>
 <package name="CRYSTAL-32KHZ-SMD">
 <smd name="X1" x="-1.27" y="0" dx="1" dy="2.5" layer="1"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -43,7 +43,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -82,18 +82,18 @@ Based on the following sources:
 <packages>
 <package name="SO08">
 <description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
-<wire x1="2.159" y1="1.9558" x2="-2.159" y2="1.9558" width="0.1524" layer="51"/>
-<wire x1="2.159" y1="-1.9558" x2="2.54" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.54" y1="1.5748" x2="-2.159" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
-<wire x1="2.159" y1="1.9558" x2="2.54" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.54" y1="-1.5748" x2="-2.159" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
-<wire x1="-2.159" y1="-1.9558" x2="2.159" y2="-1.9558" width="0.1524" layer="51"/>
-<wire x1="2.54" y1="-1.5748" x2="2.54" y2="1.5748" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="1.5748" x2="-2.54" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.8288" x2="-2.159" y2="1.8288" width="0.1524" layer="51"/>
+<wire x1="2.159" y1="-1.8288" x2="2.54" y2="-1.4478" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.54" y1="1.4478" x2="-2.159" y2="1.8288" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.159" y1="1.8288" x2="2.54" y2="1.4478" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-1.4478" x2="-2.159" y2="-1.8288" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.159" y1="-1.8288" x2="2.159" y2="-1.8288" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="-1.4478" x2="2.54" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.4478" x2="-2.54" y2="0.508" width="0.1524" layer="21"/>
 <wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.508" x2="-2.54" y2="-1.4478" width="0.1524" layer="21"/>
 <wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.54" y1="-1.6002" x2="2.54" y2="-1.6002" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.4732" x2="2.54" y2="-1.4732" width="0.1524" layer="21"/>
 <smd name="1" x="-1.905" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <smd name="8" x="-1.905" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <smd name="2" x="-0.635" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
@@ -104,29 +104,29 @@ Based on the following sources:
 <smd name="5" x="1.905" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <text x="3.81" y="-1.905" size="0.8128" layer="27" rot="R90">&gt;VALUE</text>
 <text x="-3.175" y="-1.905" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<rectangle x1="1.651" y1="1.9558" x2="2.159" y2="3.0988" layer="51"/>
-<rectangle x1="-2.159" y1="-3.0988" x2="-1.651" y2="-1.9558" layer="51"/>
-<rectangle x1="-0.889" y1="-3.0988" x2="-0.381" y2="-1.9558" layer="51"/>
-<rectangle x1="0.381" y1="-3.0734" x2="0.889" y2="-1.9304" layer="51"/>
-<rectangle x1="1.651" y1="-3.0988" x2="2.159" y2="-1.9558" layer="51"/>
-<rectangle x1="0.381" y1="1.9558" x2="0.889" y2="3.0988" layer="51"/>
-<rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
-<rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
+<rectangle x1="1.651" y1="1.8288" x2="2.159" y2="2.9718" layer="51"/>
+<rectangle x1="-2.159" y1="-2.9718" x2="-1.651" y2="-1.8288" layer="51"/>
+<rectangle x1="-0.889" y1="-2.9718" x2="-0.381" y2="-1.8288" layer="51"/>
+<rectangle x1="0.381" y1="-2.9464" x2="0.889" y2="-1.8034" layer="51"/>
+<rectangle x1="1.651" y1="-2.9718" x2="2.159" y2="-1.8288" layer="51"/>
+<rectangle x1="0.381" y1="1.8288" x2="0.889" y2="2.9718" layer="51"/>
+<rectangle x1="-0.889" y1="1.8288" x2="-0.381" y2="2.9718" layer="51"/>
+<rectangle x1="-2.159" y1="1.8288" x2="-1.651" y2="2.9718" layer="51"/>
 </package>
 <package name="SO14">
 <description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
-<wire x1="4.064" y1="1.9558" x2="-4.064" y2="1.9558" width="0.1524" layer="51"/>
-<wire x1="4.064" y1="-1.9558" x2="4.445" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.445" y1="1.5748" x2="-4.064" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
-<wire x1="4.064" y1="1.9558" x2="4.445" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-4.445" y1="-1.5748" x2="-4.064" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.064" y1="-1.9558" x2="4.064" y2="-1.9558" width="0.1524" layer="51"/>
-<wire x1="4.445" y1="-1.5748" x2="4.445" y2="1.5748" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.5748" x2="-4.445" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="4.064" y1="1.8288" x2="-4.064" y2="1.8288" width="0.1524" layer="51"/>
+<wire x1="4.064" y1="-1.8288" x2="4.445" y2="-1.4478" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.445" y1="1.4478" x2="-4.064" y2="1.8288" width="0.1524" layer="21" curve="-90"/>
+<wire x1="4.064" y1="1.8288" x2="4.445" y2="1.4478" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-4.445" y1="-1.4478" x2="-4.064" y2="-1.8288" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.064" y1="-1.8288" x2="4.064" y2="-1.8288" width="0.1524" layer="51"/>
+<wire x1="4.445" y1="-1.4478" x2="4.445" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="1.4478" x2="-4.445" y2="0.508" width="0.1524" layer="21"/>
 <wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-0.508" x2="-4.445" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-0.508" x2="-4.445" y2="-1.4478" width="0.1524" layer="21"/>
 <wire x1="-4.445" y1="0.508" x2="-4.445" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.445" y1="-1.6002" x2="4.445" y2="-1.6002" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-1.4732" x2="4.445" y2="-1.4732" width="0.1524" layer="21"/>
 <smd name="1" x="-3.81" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <smd name="14" x="-3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <smd name="2" x="-2.54" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
@@ -143,35 +143,35 @@ Based on the following sources:
 <smd name="8" x="3.81" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <text x="-3.175" y="-0.762" size="0.8128" layer="27">&gt;VALUE</text>
 <text x="-4.826" y="-1.905" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<rectangle x1="-0.254" y1="1.9558" x2="0.254" y2="3.0988" layer="51"/>
-<rectangle x1="-4.064" y1="-3.0988" x2="-3.556" y2="-1.9558" layer="51"/>
-<rectangle x1="-2.794" y1="-3.0988" x2="-2.286" y2="-1.9558" layer="51"/>
-<rectangle x1="-1.524" y1="-3.0734" x2="-1.016" y2="-1.9304" layer="51"/>
-<rectangle x1="-0.254" y1="-3.0988" x2="0.254" y2="-1.9558" layer="51"/>
-<rectangle x1="-1.524" y1="1.9558" x2="-1.016" y2="3.0988" layer="51"/>
-<rectangle x1="-2.794" y1="1.9558" x2="-2.286" y2="3.0988" layer="51"/>
-<rectangle x1="-4.064" y1="1.9558" x2="-3.556" y2="3.0988" layer="51"/>
-<rectangle x1="1.016" y1="1.9558" x2="1.524" y2="3.0988" layer="51"/>
-<rectangle x1="2.286" y1="1.9558" x2="2.794" y2="3.0988" layer="51"/>
-<rectangle x1="3.556" y1="1.9558" x2="4.064" y2="3.0988" layer="51"/>
-<rectangle x1="1.016" y1="-3.0988" x2="1.524" y2="-1.9558" layer="51"/>
-<rectangle x1="2.286" y1="-3.0988" x2="2.794" y2="-1.9558" layer="51"/>
-<rectangle x1="3.556" y1="-3.0988" x2="4.064" y2="-1.9558" layer="51"/>
+<rectangle x1="-0.254" y1="1.8288" x2="0.254" y2="2.9718" layer="51"/>
+<rectangle x1="-4.064" y1="-2.9718" x2="-3.556" y2="-1.8288" layer="51"/>
+<rectangle x1="-2.794" y1="-2.9718" x2="-2.286" y2="-1.8288" layer="51"/>
+<rectangle x1="-1.524" y1="-2.9464" x2="-1.016" y2="-1.8034" layer="51"/>
+<rectangle x1="-0.254" y1="-2.9718" x2="0.254" y2="-1.8288" layer="51"/>
+<rectangle x1="-1.524" y1="1.8288" x2="-1.016" y2="2.9718" layer="51"/>
+<rectangle x1="-2.794" y1="1.8288" x2="-2.286" y2="2.9718" layer="51"/>
+<rectangle x1="-4.064" y1="1.8288" x2="-3.556" y2="2.9718" layer="51"/>
+<rectangle x1="1.016" y1="1.8288" x2="1.524" y2="2.9718" layer="51"/>
+<rectangle x1="2.286" y1="1.8288" x2="2.794" y2="2.9718" layer="51"/>
+<rectangle x1="3.556" y1="1.8288" x2="4.064" y2="2.9718" layer="51"/>
+<rectangle x1="1.016" y1="-2.9718" x2="1.524" y2="-1.8288" layer="51"/>
+<rectangle x1="2.286" y1="-2.9718" x2="2.794" y2="-1.8288" layer="51"/>
+<rectangle x1="3.556" y1="-2.9718" x2="4.064" y2="-1.8288" layer="51"/>
 </package>
 <package name="SO16">
 <description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
-<wire x1="4.699" y1="1.9558" x2="-4.699" y2="1.9558" width="0.1524" layer="51"/>
-<wire x1="4.699" y1="-1.9558" x2="5.08" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
-<wire x1="-5.08" y1="1.5748" x2="-4.699" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
-<wire x1="4.699" y1="1.9558" x2="5.08" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-5.08" y1="-1.5748" x2="-4.699" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.699" y1="-1.9558" x2="4.699" y2="-1.9558" width="0.1524" layer="51"/>
-<wire x1="5.08" y1="-1.5748" x2="5.08" y2="1.5748" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.5748" x2="-5.08" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="4.699" y1="1.8288" x2="-4.699" y2="1.8288" width="0.1524" layer="51"/>
+<wire x1="4.699" y1="-1.8288" x2="5.08" y2="-1.4478" width="0.1524" layer="21" curve="90"/>
+<wire x1="-5.08" y1="1.4478" x2="-4.699" y2="1.8288" width="0.1524" layer="21" curve="-90"/>
+<wire x1="4.699" y1="1.8288" x2="5.08" y2="1.4478" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-5.08" y1="-1.4478" x2="-4.699" y2="-1.8288" width="0.1524" layer="21" curve="90"/>
+<wire x1="-4.699" y1="-1.8288" x2="4.699" y2="-1.8288" width="0.1524" layer="51"/>
+<wire x1="5.08" y1="-1.4478" x2="5.08" y2="1.4478" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.4478" x2="-5.08" y2="0.508" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="0.508" x2="-5.08" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.508" x2="-5.08" y2="-1.5748" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-0.508" x2="-5.08" y2="-1.4478" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="0.508" x2="-5.08" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-5.08" y1="-1.6002" x2="5.08" y2="-1.6002" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.4732" x2="5.08" y2="-1.4732" width="0.1524" layer="21"/>
 <smd name="1" x="-4.445" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <smd name="16" x="-4.445" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <smd name="2" x="-3.175" y="-3.0734" dx="0.6604" dy="2.032" layer="1"/>
@@ -190,22 +190,22 @@ Based on the following sources:
 <smd name="9" x="4.445" y="3.0734" dx="0.6604" dy="2.032" layer="1"/>
 <text x="-3.81" y="-0.762" size="0.8128" layer="27">&gt;VALUE</text>
 <text x="-5.461" y="-1.905" size="1.016" layer="25" ratio="18" rot="R90">&gt;NAME</text>
-<rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
-<rectangle x1="-4.699" y1="-3.0988" x2="-4.191" y2="-1.9558" layer="51"/>
-<rectangle x1="-3.429" y1="-3.0988" x2="-2.921" y2="-1.9558" layer="51"/>
-<rectangle x1="-2.159" y1="-3.0734" x2="-1.651" y2="-1.9304" layer="51"/>
-<rectangle x1="-0.889" y1="-3.0988" x2="-0.381" y2="-1.9558" layer="51"/>
-<rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
-<rectangle x1="-3.429" y1="1.9558" x2="-2.921" y2="3.0988" layer="51"/>
-<rectangle x1="-4.699" y1="1.9558" x2="-4.191" y2="3.0988" layer="51"/>
-<rectangle x1="0.381" y1="-3.0988" x2="0.889" y2="-1.9558" layer="51"/>
-<rectangle x1="1.651" y1="-3.0988" x2="2.159" y2="-1.9558" layer="51"/>
-<rectangle x1="2.921" y1="-3.0988" x2="3.429" y2="-1.9558" layer="51"/>
-<rectangle x1="4.191" y1="-3.0988" x2="4.699" y2="-1.9558" layer="51"/>
-<rectangle x1="0.381" y1="1.9558" x2="0.889" y2="3.0988" layer="51"/>
-<rectangle x1="1.651" y1="1.9558" x2="2.159" y2="3.0988" layer="51"/>
-<rectangle x1="2.921" y1="1.9558" x2="3.429" y2="3.0988" layer="51"/>
-<rectangle x1="4.191" y1="1.9558" x2="4.699" y2="3.0988" layer="51"/>
+<rectangle x1="-0.889" y1="1.8288" x2="-0.381" y2="2.9718" layer="51"/>
+<rectangle x1="-4.699" y1="-2.9718" x2="-4.191" y2="-1.8288" layer="51"/>
+<rectangle x1="-3.429" y1="-2.9718" x2="-2.921" y2="-1.8288" layer="51"/>
+<rectangle x1="-2.159" y1="-2.9464" x2="-1.651" y2="-1.8034" layer="51"/>
+<rectangle x1="-0.889" y1="-2.9718" x2="-0.381" y2="-1.8288" layer="51"/>
+<rectangle x1="-2.159" y1="1.8288" x2="-1.651" y2="2.9718" layer="51"/>
+<rectangle x1="-3.429" y1="1.8288" x2="-2.921" y2="2.9718" layer="51"/>
+<rectangle x1="-4.699" y1="1.8288" x2="-4.191" y2="2.9718" layer="51"/>
+<rectangle x1="0.381" y1="-2.9718" x2="0.889" y2="-1.8288" layer="51"/>
+<rectangle x1="1.651" y1="-2.9718" x2="2.159" y2="-1.8288" layer="51"/>
+<rectangle x1="2.921" y1="-2.9718" x2="3.429" y2="-1.8288" layer="51"/>
+<rectangle x1="4.191" y1="-2.9718" x2="4.699" y2="-1.8288" layer="51"/>
+<rectangle x1="0.381" y1="1.8288" x2="0.889" y2="2.9718" layer="51"/>
+<rectangle x1="1.651" y1="1.8288" x2="2.159" y2="2.9718" layer="51"/>
+<rectangle x1="2.921" y1="1.8288" x2="3.429" y2="2.9718" layer="51"/>
+<rectangle x1="4.191" y1="1.8288" x2="4.699" y2="2.9718" layer="51"/>
 </package>
 <package name="SO20W">
 <description>&lt;b&gt;Wide Small Outline package&lt;/b&gt; 300 mil</description>

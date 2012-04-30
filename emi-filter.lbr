@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.009843" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.635" altunitdist="mm" altunit="mm"/>
+<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.00125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -120,10 +120,7 @@
 <smd name="2" x="0" y="0" dx="5" dy="3" layer="1"/>
 <smd name="1" x="-4.5" y="0" dx="2" dy="3" layer="1"/>
 <smd name="3" x="4.5" y="0" dx="2" dy="3" layer="1"/>
-<wire x1="-3.25" y1="1.25" x2="-2.75" y2="1.25" width="0.3048" layer="21"/>
-<wire x1="-3.25" y1="-1.25" x2="-2.75" y2="-1.25" width="0.3048" layer="21"/>
-<wire x1="2.75" y1="-1.25" x2="3.25" y2="-1.25" width="0.3048" layer="21"/>
-<wire x1="2.75" y1="1.25" x2="3.25" y2="1.25" width="0.3048" layer="21"/>
+<wire x1="-3.21825" y1="1.25" x2="-2.78175" y2="1.25" width="0.3048" layer="21"/>
 <wire x1="-5" y1="1.25" x2="5" y2="1.25" width="0.127" layer="51"/>
 <wire x1="5" y1="1.25" x2="5" y2="-1.25" width="0.127" layer="51"/>
 <wire x1="5" y1="-1.25" x2="-5" y2="-1.25" width="0.127" layer="51"/>
@@ -131,7 +128,10 @@
 <rectangle x1="4.25" y1="-1.25" x2="5" y2="1.25" layer="51"/>
 <rectangle x1="-5" y1="-1.25" x2="-4.25" y2="1.25" layer="51"/>
 <text x="-2.25" y="1.75" size="1.016" layer="25" ratio="18">&gt;NAME</text>
-<text x="-2.5" y="-0.5" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="-2.373" y="-2.532" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="2.7825" y1="1.25" x2="3.219" y2="1.25" width="0.3048" layer="21"/>
+<wire x1="-3.21825" y1="-1.25825" x2="-2.78175" y2="-1.25825" width="0.3048" layer="21"/>
+<wire x1="2.7825" y1="-1.25825" x2="3.219" y2="-1.25825" width="0.3048" layer="21"/>
 </package>
 </packages>
 <symbols>
