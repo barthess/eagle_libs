@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.00125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -133,6 +133,18 @@
 <wire x1="-3.21825" y1="-1.25825" x2="-2.78175" y2="-1.25825" width="0.3048" layer="21"/>
 <wire x1="2.7825" y1="-1.25825" x2="3.219" y2="-1.25825" width="0.3048" layer="21"/>
 </package>
+<package name="NFE31">
+<rectangle x1="-0.5" y1="-0.8" x2="0.5" y2="0.8" layer="51"/>
+<rectangle x1="0.9" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
+<rectangle x1="-1.6" y1="-0.8" x2="-0.9" y2="0.8" layer="51"/>
+<smd name="1" x="-1.5" y="0" dx="2" dy="1.2" layer="1" rot="R90"/>
+<smd name="2" x="0" y="0" dx="2.4" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="1.5" y="0" dx="2" dy="1.2" layer="1" rot="R90"/>
+<text x="-1.7175" y="1.43625" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.9325" y="-2.1275" size="0.8128" layer="27">&gt;VALUE</text>
+<wire x1="-0.7" y1="0.9" x2="-0.7" y2="-0.9" width="0.15" layer="21"/>
+<wire x1="0.7" y1="-0.9" x2="0.7" y2="0.9" width="0.15" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="4701">
@@ -172,6 +184,30 @@
 <circle x="5.08" y="2.54" radius="0.254" width="0.254" layer="94"/>
 <circle x="0" y="-2.54" radius="0.254" width="0.254" layer="94"/>
 </symbol>
+<symbol name="NFE31P">
+<pin name="1" x="-12.7" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<wire x1="1.968" y1="-0.762" x2="0" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="0" y1="-0.762" x2="-2.032" y2="-0.762" width="0.1524" layer="94"/>
+<text x="-4.366" y="3.27" size="1.524" layer="95">&gt;NAME</text>
+<text x="0.714" y="-5.302" size="1.524" layer="96" font="vector">&gt;VALUE</text>
+<pin name="3" x="12.7" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="0" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="10.16" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="-10.16" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="4701-*" prefix="Z">
@@ -188,6 +224,23 @@
 <technologies>
 <technology name=""/>
 <technology name="001LF"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NFE31PT" prefix="Z">
+<gates>
+<gate name="G$1" symbol="NFE31P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NFE31">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
