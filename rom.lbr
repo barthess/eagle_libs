@@ -221,7 +221,7 @@
 <rectangle x1="9.585" y1="-5.2" x2="10.36" y2="-4.9" layer="51"/>
 <rectangle x1="9.585" y1="-6.2" x2="10.36" y2="-5.9" layer="51"/>
 </package>
-<package name="SO-08M">
+<package name="SO08M">
 <description>&lt;B&gt;Small Outline Medium Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
 207-mil body, package type SM</description>
 <wire x1="2.4" y1="2.43" x2="2.4" y2="-1.93" width="0.2032" layer="21"/>
@@ -252,7 +252,7 @@
 <rectangle x1="-0.8801" y1="2.5301" x2="-0.3899" y2="4.05" layer="21"/>
 <rectangle x1="-2.1501" y1="2.5301" x2="-1.6599" y2="4.05" layer="21"/>
 </package>
-<package name="SO-14">
+<package name="SO14">
 <description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
 150-mil body, package type SL</description>
 <wire x1="-4.895" y1="3.9" x2="4.895" y2="3.9" width="0.1998" layer="39"/>
@@ -346,7 +346,7 @@ package type ST</description>
 <rectangle x1="-0.45" y1="2.2" x2="-0.2" y2="3.2" layer="51"/>
 <rectangle x1="-1.1" y1="2.2" x2="-0.85" y2="3.2" layer="51"/>
 </package>
-<package name="SO-08">
+<package name="SO08">
 <description>&lt;b&gt;SMALL OUTLINE INTEGRATED CIRCUIT&lt;/b&gt;&lt;p&gt;
 body 3.9 mm/JEDEC MS-012AA</description>
 <wire x1="2.667" y1="1.905" x2="2.667" y2="-1.905" width="0.2032" layer="51"/>
@@ -464,7 +464,7 @@ I2C</description>
 <gate name="G$1" symbol="24AA" x="0" y="0"/>
 </gates>
 <devices>
-<device name="SM" package="SO-08M">
+<device name="SM" package="SO08M">
 <connects>
 <connect gate="G$1" pin="A0" pad="1"/>
 <connect gate="G$1" pin="A1" pad="2"/>
@@ -497,7 +497,7 @@ I2C</description>
 <technology name="LC64"/>
 </technologies>
 </device>
-<device name="SL" package="SO-14">
+<device name="SL" package="SO14">
 <connects>
 <connect gate="G$1" pin="A0" pad="2"/>
 <connect gate="G$1" pin="A1" pad="3"/>
@@ -586,7 +586,7 @@ I2C</description>
 <technology name="LCS52"/>
 </technologies>
 </device>
-<device name="SN" package="SO-08">
+<device name="SN" package="SO08">
 <connects>
 <connect gate="G$1" pin="A0" pad="1"/>
 <connect gate="G$1" pin="A1" pad="2"/>
@@ -671,7 +671,7 @@ I2C</description>
 <technology name="LCS52"/>
 </technologies>
 </device>
-<device name="D" package="SO-08">
+<device name="D" package="SO08">
 <connects>
 <connect gate="G$1" pin="A0" pad="1"/>
 <connect gate="G$1" pin="A1" pad="2"/>
