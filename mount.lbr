@@ -116,7 +116,7 @@
 </layers>
 <library>
 <packages>
-<package name="STAND-OFF">
+<package name="STAND-OFF-M3">
 <description>&lt;b&gt;Stand Off&lt;/b&gt;&lt;p&gt;
 This is the mechanical footprint for a #4 phillips button head screw. Use the keepout ring to avoid running the screw head into surrounding components. SKU : PRT-00447</description>
 <circle x="0" y="0" radius="3.5" width="0.127" layer="41"/>
@@ -150,17 +150,16 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <gate name="G$1" symbol="STAND-OFF" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="STAND-OFF">
+<device name="M3-LONG" package="STAND-OFF-LONG">
+</device>
+<device name="M3" package="STAND-OFF-M3">
 <technologies>
 <technology name=""/>
-<technology name="M3"/>
-<technology name="M4"/>
 </technologies>
 </device>
-<device name="LONG" package="STAND-OFF-LONG">
+<device name="M4" package="STAND-OFF-M4">
 <technologies>
-<technology name="M3"/>
-<technology name="M4"/>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
