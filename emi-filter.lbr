@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -150,7 +150,7 @@
 <symbols>
 <symbol name="4701">
 <description>Tussonix EMI filter, Pi</description>
-<pin name="1" x="-12.7" y="2.54" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="1" x="-12.7" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <wire x1="-3.112" y1="-0.508" x2="-5.08" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="-0.508" x2="-7.112" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="-3.112" y1="0.238" x2="-7.112" y2="0.238" width="0.1524" layer="94"/>
@@ -158,8 +158,8 @@
 <text x="3.254" y="-7.842" size="1.524" layer="96" font="vector">&gt;VALUE</text>
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="0.254" width="0.1524" layer="94"/>
 <wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-0.508" width="0.1524" layer="94"/>
-<pin name="3" x="12.7" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="12.7" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="0" y="-7.62" visible="pad" length="point" direction="pas" rot="R180"/>
 <wire x1="7.048" y1="-0.508" x2="5.08" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="5.08" y1="-0.508" x2="3.048" y2="-0.508" width="0.1524" layer="94"/>
 <wire x1="7.048" y1="0.238" x2="3.048" y2="0.238" width="0.1524" layer="94"/>
@@ -184,13 +184,14 @@
 <circle x="-5.08" y="2.54" radius="0.254" width="0.254" layer="94"/>
 <circle x="5.08" y="2.54" radius="0.254" width="0.254" layer="94"/>
 <circle x="0" y="-2.54" radius="0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="0" y2="-5.08" width="0.1524" layer="94"/>
 </symbol>
 <symbol name="NFE31P">
 <pin name="1" x="-12.7" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <wire x1="1.968" y1="-0.762" x2="0" y2="-0.762" width="0.1524" layer="94"/>
 <wire x1="0" y1="-0.762" x2="-2.032" y2="-0.762" width="0.1524" layer="94"/>
 <text x="-1.826" y="3.27" size="1.524" layer="95">&gt;NAME</text>
-<text x="0.714" y="-5.302" size="1.524" layer="96" font="vector">&gt;VALUE</text>
+<text x="-1.476" y="-3.334" size="1.524" layer="96" font="vector" rot="R180">&gt;VALUE</text>
 <pin name="3" x="12.7" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="0" y="-5.08" visible="pad" length="point" direction="pas" rot="R180"/>
 <wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
