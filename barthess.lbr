@@ -8781,14 +8781,14 @@ Souirce: http://focus.ti.com/lit/ds/symlink/tusb2046b.pdf</description>
 <wire x1="41.75" y1="-2.25" x2="-2.25" y2="-2.25" width="0.6096" layer="21" style="longdash"/>
 <smd name="2" x="25.3" y="3.25" dx="1.37" dy="0.61" layer="1" rot="R90"/>
 <smd name="1" x="25.3" y="0.05" dx="1.37" dy="0.61" layer="1" rot="R90"/>
-<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="44.75" width="0.127" layer="41"/>
-<wire x1="-2.25" y1="44.75" x2="41.75" y2="44.75" width="0.127" layer="41"/>
-<wire x1="41.75" y1="44.75" x2="41.75" y2="-2.25" width="0.127" layer="41"/>
-<wire x1="41.75" y1="-2.25" x2="29.5" y2="-2.25" width="0.127" layer="41"/>
-<wire x1="-2.25" y1="-2.25" x2="10.25" y2="-2.25" width="0.127" layer="41"/>
-<wire x1="10.25" y1="-2.25" x2="10.25" y2="5" width="0.127" layer="41"/>
-<wire x1="10.25" y1="5" x2="29.5" y2="5" width="0.127" layer="41"/>
-<wire x1="29.5" y1="5" x2="29.5" y2="-2.25" width="0.127" layer="41"/>
+<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="44.75" width="0.127" layer="39"/>
+<wire x1="-2.25" y1="44.75" x2="41.75" y2="44.75" width="0.127" layer="39"/>
+<wire x1="41.75" y1="44.75" x2="41.75" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="41.75" y1="-2.25" x2="29.5" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="-2.25" y1="-2.25" x2="10.25" y2="-2.25" width="0.127" layer="39"/>
+<wire x1="10.25" y1="-2.25" x2="10.25" y2="5" width="0.127" layer="39"/>
+<wire x1="10.25" y1="5" x2="29.5" y2="5" width="0.127" layer="39"/>
+<wire x1="29.5" y1="5" x2="29.5" y2="-2.25" width="0.127" layer="39"/>
 <text x="15" y="-4.8" size="1.016" layer="25">&gt;NAME</text>
 <text x="15.5" y="24.75" size="1.016" layer="27">&gt;VALUE</text>
 <circle x="0" y="42.6" radius="2.690721875" width="0.127" layer="40"/>
