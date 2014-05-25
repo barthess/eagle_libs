@@ -1802,10 +1802,9 @@ package type ST</description>
 </package>
 <package name="SOT23-5">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;, 5 lead</description>
-<wire x1="-1.544" y1="0.713" x2="1.544" y2="0.713" width="0.1524" layer="21"/>
-<wire x1="1.544" y1="0.713" x2="1.544" y2="-0.712" width="0.1524" layer="21"/>
-<wire x1="1.544" y1="-0.712" x2="-1.544" y2="-0.712" width="0.1524" layer="21"/>
-<wire x1="-1.544" y1="-0.712" x2="-1.544" y2="0.713" width="0.1524" layer="21"/>
+<wire x1="-0.375" y1="0.75" x2="0.375" y2="0.75" width="0.2" layer="21"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.2" layer="21"/>
 <smd name="5" x="-0.95" y="1.306" dx="0.6" dy="1.2" layer="1"/>
 <smd name="4" x="0.95" y="1.306" dx="0.6" dy="1.2" layer="1"/>
 <smd name="1" x="-0.95" y="-1.306" dx="0.6" dy="1.2" layer="1"/>
@@ -1818,6 +1817,10 @@ package type ST</description>
 <rectangle x1="-1.1875" y1="-1.5437" x2="-0.7125" y2="-0.7124" layer="51"/>
 <rectangle x1="-0.2375" y1="-1.5437" x2="0.2375" y2="-0.7124" layer="51"/>
 <rectangle x1="0.7125" y1="-1.5437" x2="1.1875" y2="-0.7124" layer="51"/>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.127" layer="51"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.127" layer="51"/>
 </package>
 <package name="PLD_1X02">
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
@@ -17141,9 +17144,6 @@ high speed</description>
 <technologies>
 <technology name="">
 <attribute name="PARTNO" value="?" constant="no"/>
-</technology>
-<technology name="-C3V3">
-<attribute name="PARTNO" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
